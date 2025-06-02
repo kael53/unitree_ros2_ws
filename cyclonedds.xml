@@ -9,13 +9,8 @@
                 <NetworkInterface autodetermine="true" priority="default"
                 multicast="default" />
             </Interfaces>
-12          <AllowMulticast>default</AllowMulticast>
-13          <MaxMessageSize>65500B</MaxMessageSize>
-14      </General>
-15      <Tracing>
-16          <Verbosity>config</Verbosity>
-17          <OutputFile>
-18          ${HOME}/dds/log/cdds.log.${CYCLONEDDS_PID}</OutputFile>
-19      </Tracing>
+          <AllowMulticast>default</AllowMulticast>
+          <MaxMessageSize>65500B</MaxMessageSize>
+      </General>
     </Domain>
 </CycloneDDS>

@@ -9,3 +9,6 @@
 [submodule "src/unitree_g1_dex3_stack"]
 	path = src/unitree_g1_dex3_stack
 	url = https://github.com/kael53/unitree_g1_dex3_stack.git
+[submodule "src/bbox_ex_msgs"]
+	path = src/bbox_ex_msgs
+	url = https://github.com/Ar-Ray-code/bbox_ex_msgs.git
