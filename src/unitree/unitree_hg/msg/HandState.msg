@@ -1,5 +1,5 @@
-MotorState[] motor_state
-PressSensorState[] press_sensor_state
+MotorState[7] motor_state
+PressSensorState[9] press_sensor_state
 IMUState imu_state
 float32 power_v
 float32 power_a
