@@ -1,4 +1,4 @@
-MotorState[7] motor_state
+MotorState[] motor_state
 IMUState imu_state
 PressSensorState[9] press_sensor_state
 float32 power_v
