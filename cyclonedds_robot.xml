@@ -1,0 +1,23 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <CycloneDDS xmlns="https://cdds.io/config"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="https://cdds.io/config https://raw.githubusercontent.com/eclipse-cyclonedds/cyclonedds/master/etc/cyclonedds.xsd">
+  <Domain Id="any">
+    <General>
+      <Interfaces>
+        <NetworkInterface name="eth0" priority="200" multicast="false" />
+        <NetworkInterface name="wlan0" priority="100" multicast="false" />
+      </Interfaces>
+      <AllowMulticast>false</AllowMulticast>
+      <MaxMessageSize>65500B</MaxMessageSize>
+    </General>
+    <Discovery>
+      <Peers>
+        <Peer Address="192.168.123.161"/> <!-- PC1 -->
+      </Peers>
+    </Discovery>
+    <Tracing>
+      <Verbosity>finest</Verbosity>
+    </Tracing>
+  </Domain>
+</CycloneDDS>
