@@ -12,3 +12,7 @@
 [submodule "src/bbox_ex_msgs"]
 	path = src/bbox_ex_msgs
 	url = https://github.com/Ar-Ray-code/bbox_ex_msgs.git
+[submodule "src/YOLOX-ROS"]
+	path = src/YOLOX-ROS
+	url = https://github.com/Ar-Ray-code/YOLOX-ROS.git
+	branch = main
